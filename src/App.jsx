@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 
 import QueryInput from "./components/queryinput.jsx";
 import QueryResult from "./components/queryResult.jsx";
