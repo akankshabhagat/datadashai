@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 
-import queryInput from "./components/queryinput";
-import queryResult from "./components/queryResult";
-import searchHistory from "./components/searchHistory";
+import QueryInput from "./components/queryinput";
+import QueryResult from "./components/queryResult";
+import SearchHistory from "./components/searchHistory";
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,10 +13,10 @@ function App() {
        <div className="">
       <Navbar />
       <div className="flex flex-1">
-        <searchHistory />
+        <SearchHistory />
         <div className="flex flex-col gap-10 w-full  items-center  ">
-          <queryInput />
-          <queryResult />
+          <QueryInput />
+          <QueryResult />
         </div>
       </div>
 
