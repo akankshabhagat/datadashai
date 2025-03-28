@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 
-import QueryInput from "./components/queryinput";
-import QueryResult from "./components/queryResult";
-import SearchHistory from "./components/searchHistory";
+import QueryInput from "./components/queryinput.jsx";
+import QueryResult from "./components/queryResult.jsx";
+import SearchHistory from "./components/searchHistory.jsx";
 function App() {
   const [count, setCount] = useState(0)
 
