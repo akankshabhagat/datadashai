@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Navbar from "./components/Navbar.jsx";
-import QueryInput from "./components/QueryInput.jsx";
+import QueryInput from "./components/Queryinput.jsx";
 import QueryResult from "./components/QueryResult.jsx"
 import  SearchHistory from "./components/SearchHistory.jsx"
 
