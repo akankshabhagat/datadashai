@@ -3,15 +3,25 @@ import { CiSearch } from "react-icons/ci";
 import { useDispatch } from "react-redux";
 import { submitQuery, setResult, setError, addToHistory } from "../store.js";
 
+
 const querySuggestions = [
-  "Show me last month's sales",
-  "Compare last year's sales with this year",
-  "Top 2 products by revenue",
-  "Show total revenue for Q1 2024",
-  "Show customer growth this year",
-  "Monthly expenses for 2023",
-  "Total orders placed this week",
+  "Total sales in the last quarter",
+  "Year-over-year revenue comparison",
+  "Top 5 performing products",
+  "Show customer acquisition trend for 2024",
+  "Monthly revenue breakdown for 2023",
+  "Net profit for Q2 2024",
+  "Total number of orders this month",
+  "Sales growth rate by region",
+  "Customer churn rate for the last 6 months",
+  "Inventory status for product categories",
+  "Show average order value for last year",
+  "Weekly sales report for March 2025",
+  "Compare revenue of top 3 products",
+  "Predict sales for next quarter",
+  "Show revenue by sales channel",
 ];
+
 
 const QueryInput = () => {
   const [query, setQuery] = useState("");
