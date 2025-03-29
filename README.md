@@ -6,6 +6,7 @@ it is a submission to growthgears challenge 2025
 
 ---
 ![image](https://github.com/user-attachments/assets/40bd8d1a-1d26-4811-9ecf-2cb7e874f553)
+suggestions shown ![image](https://github.com/user-attachments/assets/4eeb82f1-f0db-4f58-88b5-7b08c5a6d18d)
 
 
 ## 🚀 **Features**
