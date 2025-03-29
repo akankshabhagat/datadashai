@@ -5,6 +5,8 @@ DatadashAI is a data visualization and analysis web application built using **Re
 it is a submission to growthgears challenge 2025
 
 ---
+![image](https://github.com/user-attachments/assets/40bd8d1a-1d26-4811-9ecf-2cb7e874f553)
+
 
 ## 🚀 **Features**
 - Responsive, elegant UI with **Tailwind CSS**
